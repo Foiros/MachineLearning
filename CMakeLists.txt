@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(MachineLearning)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(MachineLearning main.cpp Data.cpp Data.h DataHandler.cpp DataHandler.h)

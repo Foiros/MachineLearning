@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Yliopisto toita/GitHub/Unreal/MachineLearning/Data.h
+vector
+-
+cstdint
+-
+cstdio
+-
+
+E:/Yliopisto toita/GitHub/Unreal/MachineLearning/DataHandler.cpp
+DataHandler.h
+E:/Yliopisto toita/GitHub/Unreal/MachineLearning/DataHandler.h
+
+E:/Yliopisto toita/GitHub/Unreal/MachineLearning/DataHandler.h
+fstream
+-
+stdint.h
+E:/Yliopisto toita/GitHub/Unreal/MachineLearning/stdint.h
+Data.h
+E:/Yliopisto toita/GitHub/Unreal/MachineLearning/Data.h
+vector
+-
+string
+-
+map
+-
+unordered_set
+-
+
