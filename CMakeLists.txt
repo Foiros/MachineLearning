@@ -3,4 +3,4 @@ project(MachineLearning)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(MachineLearning main.cpp Data.cpp Data.h DataHandler.cpp DataHandler.h)
+add_executable(MachineLearning main.cpp Data.cpp Data.h DataHandler.cpp DataHandler.h KNN.cpp KNN.h Common_Data.cpp Common_Data.h KMean.cpp KMean.h)

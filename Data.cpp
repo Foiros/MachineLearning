@@ -52,3 +52,13 @@ std::vector<uint8_t> *Data::GetFeatureVector() {
 
     return featureVector;
 }
+
+void Data::Set_Distance(double val) {
+
+    distance = val;
+}
+
+double Data::Get_Distance() {
+
+    return distance;
+}

@@ -187,3 +187,8 @@ std::vector<Data *> * DataHandler::GetValidationData() {
 
     return validationData;
 }
+
+int DataHandler::Get_Class_Counts() {
+
+    return numClasses;
+}

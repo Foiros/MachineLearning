@@ -1,4 +1,4 @@
-"E:\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" "E:\Yliopisto toita\GitHub\Unreal\MachineLearning"
+"E:\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning"
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/Yliopisto toita/GitHub/Unreal/MachineLearning/cmake-build-debug
+-- Build files have been written to: E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug

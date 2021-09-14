@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MachineLearning.dir/Common_Data.cpp.obj"
   "CMakeFiles/MachineLearning.dir/Data.cpp.obj"
   "CMakeFiles/MachineLearning.dir/DataHandler.cpp.obj"
+  "CMakeFiles/MachineLearning.dir/KMean.cpp.obj"
+  "CMakeFiles/MachineLearning.dir/KNN.cpp.obj"
   "CMakeFiles/MachineLearning.dir/main.cpp.obj"
   "MachineLearning.exe"
   "MachineLearning.exe.manifest"

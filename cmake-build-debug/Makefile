@@ -46,10 +46,10 @@ RM = "E:\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\Yliopisto toita\GitHub\Unreal\MachineLearning"
+CMAKE_SOURCE_DIR = "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\cmake-build-debug\CMakeFiles" "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\CMakeFiles" "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -117,6 +117,30 @@ MachineLearning: cmake_check_build_system
 MachineLearning\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\build
 .PHONY : MachineLearning\fast
+
+Common_Data.obj: Common_Data.cpp.obj
+.PHONY : Common_Data.obj
+
+# target to build an object file
+Common_Data.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\Common_Data.cpp.obj
+.PHONY : Common_Data.cpp.obj
+
+Common_Data.i: Common_Data.cpp.i
+.PHONY : Common_Data.i
+
+# target to preprocess a source file
+Common_Data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\Common_Data.cpp.i
+.PHONY : Common_Data.cpp.i
+
+Common_Data.s: Common_Data.cpp.s
+.PHONY : Common_Data.s
+
+# target to generate assembly for a file
+Common_Data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\Common_Data.cpp.s
+.PHONY : Common_Data.cpp.s
 
 Data.obj: Data.cpp.obj
 .PHONY : Data.obj
@@ -166,6 +190,54 @@ DataHandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\DataHandler.cpp.s
 .PHONY : DataHandler.cpp.s
 
+KMean.obj: KMean.cpp.obj
+.PHONY : KMean.obj
+
+# target to build an object file
+KMean.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\KMean.cpp.obj
+.PHONY : KMean.cpp.obj
+
+KMean.i: KMean.cpp.i
+.PHONY : KMean.i
+
+# target to preprocess a source file
+KMean.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\KMean.cpp.i
+.PHONY : KMean.cpp.i
+
+KMean.s: KMean.cpp.s
+.PHONY : KMean.s
+
+# target to generate assembly for a file
+KMean.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\KMean.cpp.s
+.PHONY : KMean.cpp.s
+
+KNN.obj: KNN.cpp.obj
+.PHONY : KNN.obj
+
+# target to build an object file
+KNN.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\KNN.cpp.obj
+.PHONY : KNN.cpp.obj
+
+KNN.i: KNN.cpp.i
+.PHONY : KNN.i
+
+# target to preprocess a source file
+KNN.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\KNN.cpp.i
+.PHONY : KNN.cpp.i
+
+KNN.s: KNN.cpp.s
+.PHONY : KNN.s
+
+# target to generate assembly for a file
+KNN.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\KNN.cpp.s
+.PHONY : KNN.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -199,12 +271,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MachineLearning
+	@echo ... Common_Data.obj
+	@echo ... Common_Data.i
+	@echo ... Common_Data.s
 	@echo ... Data.obj
 	@echo ... Data.i
 	@echo ... Data.s
 	@echo ... DataHandler.obj
 	@echo ... DataHandler.i
 	@echo ... DataHandler.s
+	@echo ... KMean.obj
+	@echo ... KMean.i
+	@echo ... KMean.s
+	@echo ... KNN.obj
+	@echo ... KNN.i
+	@echo ... KNN.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

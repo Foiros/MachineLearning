@@ -43,10 +43,10 @@ RM = "E:\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\Yliopisto toita\GitHub\Unreal\MachineLearning"
+CMAKE_SOURCE_DIR = "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -70,14 +70,14 @@ clean: CMakeFiles\MachineLearning.dir\clean
 CMakeFiles\MachineLearning.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Yliopisto toita\GitHub\Unreal\MachineLearning\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4 "Built target MachineLearning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target MachineLearning"
 .PHONY : CMakeFiles\MachineLearning.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\MachineLearning.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\cmake-build-debug\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles\MachineLearning.dir\rule
 
 # Convenience name for target.

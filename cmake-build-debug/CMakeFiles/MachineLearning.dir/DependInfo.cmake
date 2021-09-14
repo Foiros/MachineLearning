@@ -8,9 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/Data.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/Data.cpp.obj"
-  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/DataHandler.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/DataHandler.cpp.obj"
-  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/main.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/main.cpp.obj"
+  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Common_Data.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/Common_Data.cpp.obj"
+  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Data.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/Data.cpp.obj"
+  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/DataHandler.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/DataHandler.cpp.obj"
+  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KMean.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/KMean.cpp.obj"
+  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KNN.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/KNN.cpp.obj"
+  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/main.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
