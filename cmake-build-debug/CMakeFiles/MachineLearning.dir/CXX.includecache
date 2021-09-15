@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Common_Data.cpp
-Common_Data.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Common_Data.h
-
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Common_Data.h
-Data.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Data.h
-vector
--
-
 E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Data.cpp
 Data.h
 E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Data.h
@@ -27,72 +17,4 @@ cstdint
 -
 cstdio
 -
-
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/DataHandler.cpp
-DataHandler.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/DataHandler.h
-
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/DataHandler.h
-fstream
--
-stdint.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/stdint.h
-Data.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Data.h
-vector
--
-string
--
-map
--
-unordered_set
--
-
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KMean.cpp
-KMean.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KMean.h
-
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KMean.h
-Common_Data.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Common_Data.h
-DataHandler.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/DataHandler.h
-unordered_set
--
-limits
--
-cstdlib
--
-cmath
--
-map
--
-
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KNN.cpp
-KNN.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KNN.h
-cmath
--
-limits
--
-map
--
-stdint.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/stdint.h
-
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KNN.h
-vector
--
-Common_Data.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Common_Data.h
-
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/main.cpp
-iostream
--
-DataHandler.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/DataHandler.h
-KNN.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KNN.h
-KMean.h
-E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KMean.h
 

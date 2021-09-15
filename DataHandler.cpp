@@ -155,6 +155,7 @@ void DataHandler::SplitData() {
 void DataHandler::CountClasses() {
 
     int count = 0;
+
     for(unsigned i = 0; i < dataArray->size(); i++){
 
         if(classMap.find(dataArray->at(i)->GetLabel()) == classMap.end()){
@@ -164,7 +165,12 @@ void DataHandler::CountClasses() {
             count++;
         }
     }
+
     numClasses = count;
+
+    for(Data *data : *dataArray)
+        data->Set_Class_Vector(numClasses);
+
     printf("Successfully Extracted %d Unique Classes.\n", numClasses);
 }
 
@@ -191,4 +197,42 @@ std::vector<Data *> * DataHandler::GetValidationData() {
 int DataHandler::Get_Class_Counts() {
 
     return numClasses;
+}
+
+void DataHandler::read_csv(std::string path, std::string delimiter) {
+
+    numClasses = 0;
+    std::ifstream  data_file(path.c_str());
+    std::string line; // Holds each line
+
+    while(std::getline(data_file, line)){
+
+        if(line.length() == 0) continue;
+        Data *d = new Data();
+        d->Set_Double_Feature_Vector(new std::vector<double>());
+        size_t position = 0;
+        std::string token; // Value in between delimiter
+
+        while((position = line.find(delimiter)) != std::string::npos){
+
+            token = line.substr(0, position);
+            d->Append_To_Double_Feature_Vector(std::stod(token));
+            line.erase(0, position + delimiter.length());
+        }
+
+        if(class_map.find(line) != class_map.end()){
+
+            d->SetLabel(class_map[line]);
+        }
+        else{
+
+            class_map[line] = numClasses;
+            d->SetLabel(class_map[line]);
+            numClasses++;
+        }
+
+        dataArray->push_back(d);
+    }
+
+    featureVectorSize = dataArray->at(0)->Get_Double_Feature_Vector()->size();
 }

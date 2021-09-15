@@ -25,6 +25,7 @@ private:
     int numClasses;
     int featureVectorSize;
     std::map<uint8_t, int> classMap;
+    std::map<std::string, int> class_map;
 
     const double TRAIN_SET_PERCENT = 0.75;
     const double TEST_SET_PERCENT = 0.20;
@@ -34,6 +35,7 @@ public:
     DataHandler();
     ~DataHandler();
 
+    void read_csv(std::string path, std::string delimiter);
     void ReadFeatureVector(std::string path);
     void ReadFeatureLabels(std::string path);
     void SplitData();

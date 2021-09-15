@@ -62,3 +62,34 @@ double Data::Get_Distance() {
 
     return distance;
 }
+
+void Data::Set_Double_Feature_Vector(std::vector<double> *vector) {
+
+    double_feature_Vector = vector;
+}
+
+void Data::Append_To_Double_Feature_Vector(double val) {
+
+    double_feature_Vector->push_back(val);
+}
+
+void Data::Set_Class_Vector(int count) {
+
+    class_vector = new std::vector<int>;
+
+    for (int i = 0; i < count; ++i) {
+
+        if(i == label)
+            class_vector->push_back(1);
+        else
+            class_vector->push_back(0);
+    }
+}
+
+std::vector<double> *Data::Get_Double_Feature_Vector() {
+    return nullptr;
+}
+
+std::vector<int> *Data::Get_Class_Vector() {
+    return nullptr;
+}

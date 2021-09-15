@@ -14,6 +14,8 @@ class Data {
 
 private:
     std::vector<uint8_t>* featureVector; // No class at end.
+    std::vector<double>* double_feature_Vector;
+    std::vector<int>* class_vector;
     uint8_t label;
     int enumLabel; // A -> 1, B -> 2
     double distance;
@@ -24,6 +26,13 @@ public:
 
     void SetFeatureVector(std::vector<uint8_t>*);
     void AppendToFeatureVector(uint8_t);
+
+    void Set_Double_Feature_Vector(std::vector<double>*);
+    void Append_To_Double_Feature_Vector(double);
+
+    void Set_Class_Vector(int count);
+
+
     void SetLabel(uint8_t);
     void SetEnumeratedLabel(int);
     void Set_Distance(double val);
@@ -33,6 +42,8 @@ public:
     uint8_t GetEnumeratedLabel();
 
     std::vector<uint8_t>* GetFeatureVector();
+    std::vector<double>* Get_Double_Feature_Vector();
+    std::vector<int>* Get_Class_Vector();
     double Get_Distance();
 };
 
