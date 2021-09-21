@@ -190,6 +190,54 @@ DataHandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\DataHandler.cpp.s
 .PHONY : DataHandler.cpp.s
 
+HiddenLayer.obj: HiddenLayer.cpp.obj
+.PHONY : HiddenLayer.obj
+
+# target to build an object file
+HiddenLayer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\HiddenLayer.cpp.obj
+.PHONY : HiddenLayer.cpp.obj
+
+HiddenLayer.i: HiddenLayer.cpp.i
+.PHONY : HiddenLayer.i
+
+# target to preprocess a source file
+HiddenLayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\HiddenLayer.cpp.i
+.PHONY : HiddenLayer.cpp.i
+
+HiddenLayer.s: HiddenLayer.cpp.s
+.PHONY : HiddenLayer.s
+
+# target to generate assembly for a file
+HiddenLayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\HiddenLayer.cpp.s
+.PHONY : HiddenLayer.cpp.s
+
+InputLayer.obj: InputLayer.cpp.obj
+.PHONY : InputLayer.obj
+
+# target to build an object file
+InputLayer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\InputLayer.cpp.obj
+.PHONY : InputLayer.cpp.obj
+
+InputLayer.i: InputLayer.cpp.i
+.PHONY : InputLayer.i
+
+# target to preprocess a source file
+InputLayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\InputLayer.cpp.i
+.PHONY : InputLayer.cpp.i
+
+InputLayer.s: InputLayer.cpp.s
+.PHONY : InputLayer.s
+
+# target to generate assembly for a file
+InputLayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\InputLayer.cpp.s
+.PHONY : InputLayer.cpp.s
+
 KMean.obj: KMean.cpp.obj
 .PHONY : KMean.obj
 
@@ -238,6 +286,102 @@ KNN.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\KNN.cpp.s
 .PHONY : KNN.cpp.s
 
+Layer.obj: Layer.cpp.obj
+.PHONY : Layer.obj
+
+# target to build an object file
+Layer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\Layer.cpp.obj
+.PHONY : Layer.cpp.obj
+
+Layer.i: Layer.cpp.i
+.PHONY : Layer.i
+
+# target to preprocess a source file
+Layer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\Layer.cpp.i
+.PHONY : Layer.cpp.i
+
+Layer.s: Layer.cpp.s
+.PHONY : Layer.s
+
+# target to generate assembly for a file
+Layer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\Layer.cpp.s
+.PHONY : Layer.cpp.s
+
+Network.obj: Network.cpp.obj
+.PHONY : Network.obj
+
+# target to build an object file
+Network.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\Network.cpp.obj
+.PHONY : Network.cpp.obj
+
+Network.i: Network.cpp.i
+.PHONY : Network.i
+
+# target to preprocess a source file
+Network.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\Network.cpp.i
+.PHONY : Network.cpp.i
+
+Network.s: Network.cpp.s
+.PHONY : Network.s
+
+# target to generate assembly for a file
+Network.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\Network.cpp.s
+.PHONY : Network.cpp.s
+
+Neuron.obj: Neuron.cpp.obj
+.PHONY : Neuron.obj
+
+# target to build an object file
+Neuron.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\Neuron.cpp.obj
+.PHONY : Neuron.cpp.obj
+
+Neuron.i: Neuron.cpp.i
+.PHONY : Neuron.i
+
+# target to preprocess a source file
+Neuron.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\Neuron.cpp.i
+.PHONY : Neuron.cpp.i
+
+Neuron.s: Neuron.cpp.s
+.PHONY : Neuron.s
+
+# target to generate assembly for a file
+Neuron.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\Neuron.cpp.s
+.PHONY : Neuron.cpp.s
+
+OutputLayer.obj: OutputLayer.cpp.obj
+.PHONY : OutputLayer.obj
+
+# target to build an object file
+OutputLayer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\OutputLayer.cpp.obj
+.PHONY : OutputLayer.cpp.obj
+
+OutputLayer.i: OutputLayer.cpp.i
+.PHONY : OutputLayer.i
+
+# target to preprocess a source file
+OutputLayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\OutputLayer.cpp.i
+.PHONY : OutputLayer.cpp.i
+
+OutputLayer.s: OutputLayer.cpp.s
+.PHONY : OutputLayer.s
+
+# target to generate assembly for a file
+OutputLayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MachineLearning.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MachineLearning.dir\OutputLayer.cpp.s
+.PHONY : OutputLayer.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -280,12 +424,30 @@ help:
 	@echo ... DataHandler.obj
 	@echo ... DataHandler.i
 	@echo ... DataHandler.s
+	@echo ... HiddenLayer.obj
+	@echo ... HiddenLayer.i
+	@echo ... HiddenLayer.s
+	@echo ... InputLayer.obj
+	@echo ... InputLayer.i
+	@echo ... InputLayer.s
 	@echo ... KMean.obj
 	@echo ... KMean.i
 	@echo ... KMean.s
 	@echo ... KNN.obj
 	@echo ... KNN.i
 	@echo ... KNN.s
+	@echo ... Layer.obj
+	@echo ... Layer.i
+	@echo ... Layer.s
+	@echo ... Network.obj
+	@echo ... Network.i
+	@echo ... Network.s
+	@echo ... Neuron.obj
+	@echo ... Neuron.i
+	@echo ... Neuron.s
+	@echo ... OutputLayer.obj
+	@echo ... OutputLayer.i
+	@echo ... OutputLayer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

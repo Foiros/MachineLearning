@@ -5,13 +5,14 @@
 #ifndef MACHINELEARNING_DATAHANDLER_H
 #define MACHINELEARNING_DATAHANDLER_H
 
-#include <fstream>
-#include "stdint.h"
+#include "fstream"
+#include <cstdint>
 #include "Data.h"
 #include <vector>
 #include <string>
 #include <map>
 #include <unordered_set>
+#include <cmath>
 
 
 class DataHandler {
@@ -22,31 +23,39 @@ private:
     std::vector<Data*> *testData;
     std::vector<Data*> *validationData;
 
-    int numClasses;
+    int class_counts;
     int featureVectorSize;
-    std::map<uint8_t, int> classMap;
-    std::map<std::string, int> class_map;
+    std::map<uint8_t, int> class_from_int;
+    std::map<std::string, int> class_from_string;
 
-    const double TRAIN_SET_PERCENT = 0.75;
-    const double TEST_SET_PERCENT = 0.20;
-    const double VALIDATION_PERCENT = 0.05;
+    const double TRAIN_SET_PERCENT = 1;
+    const double TEST_SET_PERCENT = 0.075;
+    const double VALIDATION_PERCENT = 0.005;
 
 public:
     DataHandler();
     ~DataHandler();
 
     void read_csv(std::string path, std::string delimiter);
-    void ReadFeatureVector(std::string path);
-    void ReadFeatureLabels(std::string path);
+    void Read_Input_Data(std::string path);
+    void Read_Label_Data(std::string path);
     void SplitData();
     void CountClasses();
-
-    uint32_t ConvertToLittleEndian(const unsigned char* bytes);
+    void Normalize();
+    void Print();
 
     int Get_Class_Counts();
+    int Get_Data_Array_Size();
+    int Get_Training_Data_Size();
+    int Get_Test_Data_Size();
+    int Get_Validation_Data_Size();
+
+    uint32_t Format(const unsigned char* bytes);
+
     std::vector<Data*> *GetTrainingData();
     std::vector<Data*> *GetTestData();
     std::vector<Data*> *GetValidationData();
+    std::map<uint8_t, int> Get_Class_Map();
 };
 
 

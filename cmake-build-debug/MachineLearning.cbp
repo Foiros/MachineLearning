@@ -100,6 +100,18 @@
 		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/DataHandler.h">
 			<Option target="MachineLearning"/>
 		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/HiddenLayer.cpp">
+			<Option target="MachineLearning"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/HiddenLayer.h">
+			<Option target="MachineLearning"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/InputLayer.cpp">
+			<Option target="MachineLearning"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/InputLayer.h">
+			<Option target="MachineLearning"/>
+		</Unit>
 		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KMean.cpp">
 			<Option target="MachineLearning"/>
 		</Unit>
@@ -110,6 +122,30 @@
 			<Option target="MachineLearning"/>
 		</Unit>
 		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KNN.h">
+			<Option target="MachineLearning"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Layer.cpp">
+			<Option target="MachineLearning"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Layer.h">
+			<Option target="MachineLearning"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Network.cpp">
+			<Option target="MachineLearning"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Network.h">
+			<Option target="MachineLearning"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Neuron.cpp">
+			<Option target="MachineLearning"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Neuron.h">
+			<Option target="MachineLearning"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/OutputLayer.cpp">
+			<Option target="MachineLearning"/>
+		</Unit>
+		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/OutputLayer.h">
 			<Option target="MachineLearning"/>
 		</Unit>
 		<Unit filename="E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/main.cpp">

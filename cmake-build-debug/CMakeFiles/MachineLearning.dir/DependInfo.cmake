@@ -11,8 +11,14 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Common_Data.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/Common_Data.cpp.obj"
   "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Data.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/Data.cpp.obj"
   "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/DataHandler.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/DataHandler.cpp.obj"
+  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/HiddenLayer.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/HiddenLayer.cpp.obj"
+  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/InputLayer.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/InputLayer.cpp.obj"
   "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KMean.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/KMean.cpp.obj"
   "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/KNN.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/KNN.cpp.obj"
+  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Layer.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/Layer.cpp.obj"
+  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Network.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/Network.cpp.obj"
+  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/Neuron.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/Neuron.cpp.obj"
+  "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/OutputLayer.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/OutputLayer.cpp.obj"
   "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/main.cpp" "E:/Yliopisto toita/GitHub/Unreal/MachineLearning/MachineLearning/cmake-build-debug/CMakeFiles/MachineLearning.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

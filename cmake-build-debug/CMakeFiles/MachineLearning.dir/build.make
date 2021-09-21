@@ -169,6 +169,120 @@ CMakeFiles\MachineLearning.dir\KMean.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MachineLearning.dir\KMean.cpp.s /c "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\KMean.cpp"
 <<
 
+CMakeFiles\MachineLearning.dir\Layer.cpp.obj: CMakeFiles\MachineLearning.dir\flags.make
+CMakeFiles\MachineLearning.dir\Layer.cpp.obj: ..\Layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MachineLearning.dir/Layer.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MachineLearning.dir\Layer.cpp.obj /FdCMakeFiles\MachineLearning.dir\ /FS -c "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\Layer.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\Layer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineLearning.dir/Layer.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\MachineLearning.dir\Layer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\Layer.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\Layer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineLearning.dir/Layer.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MachineLearning.dir\Layer.cpp.s /c "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\Layer.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\InputLayer.cpp.obj: CMakeFiles\MachineLearning.dir\flags.make
+CMakeFiles\MachineLearning.dir\InputLayer.cpp.obj: ..\InputLayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MachineLearning.dir/InputLayer.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MachineLearning.dir\InputLayer.cpp.obj /FdCMakeFiles\MachineLearning.dir\ /FS -c "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\InputLayer.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\InputLayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineLearning.dir/InputLayer.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\MachineLearning.dir\InputLayer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\InputLayer.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\InputLayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineLearning.dir/InputLayer.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MachineLearning.dir\InputLayer.cpp.s /c "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\InputLayer.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\HiddenLayer.cpp.obj: CMakeFiles\MachineLearning.dir\flags.make
+CMakeFiles\MachineLearning.dir\HiddenLayer.cpp.obj: ..\HiddenLayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MachineLearning.dir/HiddenLayer.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MachineLearning.dir\HiddenLayer.cpp.obj /FdCMakeFiles\MachineLearning.dir\ /FS -c "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\HiddenLayer.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\HiddenLayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineLearning.dir/HiddenLayer.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\MachineLearning.dir\HiddenLayer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\HiddenLayer.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\HiddenLayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineLearning.dir/HiddenLayer.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MachineLearning.dir\HiddenLayer.cpp.s /c "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\HiddenLayer.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\OutputLayer.cpp.obj: CMakeFiles\MachineLearning.dir\flags.make
+CMakeFiles\MachineLearning.dir\OutputLayer.cpp.obj: ..\OutputLayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MachineLearning.dir/OutputLayer.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MachineLearning.dir\OutputLayer.cpp.obj /FdCMakeFiles\MachineLearning.dir\ /FS -c "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\OutputLayer.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\OutputLayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineLearning.dir/OutputLayer.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\MachineLearning.dir\OutputLayer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\OutputLayer.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\OutputLayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineLearning.dir/OutputLayer.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MachineLearning.dir\OutputLayer.cpp.s /c "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\OutputLayer.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\Neuron.cpp.obj: CMakeFiles\MachineLearning.dir\flags.make
+CMakeFiles\MachineLearning.dir\Neuron.cpp.obj: ..\Neuron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MachineLearning.dir/Neuron.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MachineLearning.dir\Neuron.cpp.obj /FdCMakeFiles\MachineLearning.dir\ /FS -c "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\Neuron.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\Neuron.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineLearning.dir/Neuron.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\MachineLearning.dir\Neuron.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\Neuron.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\Neuron.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineLearning.dir/Neuron.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MachineLearning.dir\Neuron.cpp.s /c "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\Neuron.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\Network.cpp.obj: CMakeFiles\MachineLearning.dir\flags.make
+CMakeFiles\MachineLearning.dir\Network.cpp.obj: ..\Network.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MachineLearning.dir/Network.cpp.obj"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\MachineLearning.dir\Network.cpp.obj /FdCMakeFiles\MachineLearning.dir\ /FS -c "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\Network.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\Network.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MachineLearning.dir/Network.cpp.i"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\MachineLearning.dir\Network.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\Network.cpp"
+<<
+
+CMakeFiles\MachineLearning.dir\Network.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MachineLearning.dir/Network.cpp.s"
+	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\MachineLearning.dir\Network.cpp.s /c "E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\Network.cpp"
+<<
+
 # Object files for target MachineLearning
 MachineLearning_OBJECTS = \
 "CMakeFiles\MachineLearning.dir\main.cpp.obj" \
@@ -176,7 +290,13 @@ MachineLearning_OBJECTS = \
 "CMakeFiles\MachineLearning.dir\DataHandler.cpp.obj" \
 "CMakeFiles\MachineLearning.dir\KNN.cpp.obj" \
 "CMakeFiles\MachineLearning.dir\Common_Data.cpp.obj" \
-"CMakeFiles\MachineLearning.dir\KMean.cpp.obj"
+"CMakeFiles\MachineLearning.dir\KMean.cpp.obj" \
+"CMakeFiles\MachineLearning.dir\Layer.cpp.obj" \
+"CMakeFiles\MachineLearning.dir\InputLayer.cpp.obj" \
+"CMakeFiles\MachineLearning.dir\HiddenLayer.cpp.obj" \
+"CMakeFiles\MachineLearning.dir\OutputLayer.cpp.obj" \
+"CMakeFiles\MachineLearning.dir\Neuron.cpp.obj" \
+"CMakeFiles\MachineLearning.dir\Network.cpp.obj"
 
 # External object files for target MachineLearning
 MachineLearning_EXTERNAL_OBJECTS =
@@ -187,9 +307,15 @@ MachineLearning.exe: CMakeFiles\MachineLearning.dir\DataHandler.cpp.obj
 MachineLearning.exe: CMakeFiles\MachineLearning.dir\KNN.cpp.obj
 MachineLearning.exe: CMakeFiles\MachineLearning.dir\Common_Data.cpp.obj
 MachineLearning.exe: CMakeFiles\MachineLearning.dir\KMean.cpp.obj
+MachineLearning.exe: CMakeFiles\MachineLearning.dir\Layer.cpp.obj
+MachineLearning.exe: CMakeFiles\MachineLearning.dir\InputLayer.cpp.obj
+MachineLearning.exe: CMakeFiles\MachineLearning.dir\HiddenLayer.cpp.obj
+MachineLearning.exe: CMakeFiles\MachineLearning.dir\OutputLayer.cpp.obj
+MachineLearning.exe: CMakeFiles\MachineLearning.dir\Neuron.cpp.obj
+MachineLearning.exe: CMakeFiles\MachineLearning.dir\Network.cpp.obj
 MachineLearning.exe: CMakeFiles\MachineLearning.dir\build.make
 MachineLearning.exe: CMakeFiles\MachineLearning.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable MachineLearning.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable MachineLearning.exe"
 	"E:\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\MachineLearning.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\MachineLearning.dir\objects1.rsp @<<
  /out:MachineLearning.exe /implib:MachineLearning.lib /pdb:"E:\Yliopisto toita\GitHub\Unreal\MachineLearning\MachineLearning\cmake-build-debug\MachineLearning.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
